@@ -6,12 +6,19 @@ San Francisco is a booming city owing to the tech industry and an attractive tou
 For the Data Incubator Challenge project, I would like to propose SafeSF path finder tool for visitors and locals alike, who are looking to find the safest route to make it to their destination. The application will utilize public safety data from San Francisco crime reports from 2009-2015 (data.sfgov.org) as well as traffic incident reports (sfcta.org) to create realistic predictions of passage risks, and use it to suggest the safest and shortest path to a selected destination. 
 
 The development of the proposed tool will occur in the following stages:
+
 1) Categorization of the crimes based on commute impact as well as severity (e.g. loitering is a lower risk crime than assault).
+
 2) Definition of minimum safety and maximum risk thresholds.
+
 3) Development and normalization of risk predictors including location, time of day, day of the week and the month. 
+
 4) Addition of risk factors describing socioeconomic patterns (income, age, health, employment); the impact of weather conditions, and special events (e.g. SF Giants game or closure of Market Street) into the prediction algorithm.
+
 5) Personalization of risk prediction for the user by considering the impact of age and gender on the risk prediction accuracy.
+
 6) Implementation of the risk detection into pre-existing shortest path finding algorithms. In short, the probability of incident given neighborhood + time + street will be modeled; the shortest route between two nodes on the map will be re-weighed based on the incident probability.
+
 7) The follow-up addition would reccommend alternative commute means if the safest path found does not meet minimum safety threshold.
 
 The initial exploratory analysis was performed utilizing pulic safety records <https://data.sfgov.org/Public-Safety/Map-Crime-Incidents-from-1-Jan-2003/gxxq-x39z> containing incident report data from 2003-2015 with variables including, among others, classification of the type of crime, as well as the exact geographical location. The main goal of this analysis is to visualize high level patterns of San Francisco crime occurences and the impact of variables which will be explored in the initial stages of the predictive algorithm development.
