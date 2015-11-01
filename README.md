@@ -1,4 +1,5 @@
-# SafeSF Path Finder - Tool Proposal for Finding Safest Routes in San Francisco
+# SafeSF Path Finder 
+### - Tool Proposal for Finding Safest Routes in San Francisco
 
 San Francisco is a booming city owing to the tech industry and an attractive touristic destination. Nevertheless, the city saw more than 20% spike in property crime such as thefts and burglary, as well as an unnerving increase in violent crime such as robbery and assault between 2012 and 2013 alone. If you are planning to visit or move to San Francisco, you may have found a lot of useful tips on which neighborhoods to avoid, and where it is safe to stay. However, what may shock the visitor is how eclectic the city is, with the socioeconomic landscapes changing from one block to another. Even though one may try to avoid the less-safe neighborhoods, it is very easy to cross into the one block that simply does not feel safe.
 
