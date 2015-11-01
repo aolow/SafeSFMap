@@ -7,7 +7,7 @@ For the Data Incubator Challenge project, I would like to propose SafeSF path fi
 
 The development of the proposed tool will occur in the following stages:
 
-1.Categorization of the crimes based on commute impact as well as severity (e.g. loitering is a lower risk crime than assault).
+1. Categorization of the crimes based on commute impact as well as severity (e.g. loitering is a lower risk crime than assault).
 2. Definition of minimum safety and maximum risk thresholds.
 3. Development and normalization of risk predictors including location, time of day, day of the week and the month. 
 4. Addition of risk factors describing socioeconomic patterns (income, age, health, employment); the impact of weather conditions, and special events (e.g. SF Giants game or closure of Market Street) into the prediction algorithm.
